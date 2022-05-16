@@ -1,0 +1,208 @@
+.navbg {
+    background-image: url(../imge/11062b_3e2f37c297534f9ead156265242fbca8f000.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.688);
+    height: 100%;
+    background-image: url(../imge/84770f_a8e9f0928bf844718bc0a55d46c54f56_mv2.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.navfont {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 0.35rem;
+}
+
+.middletitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 250 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+
+}
+
+
+h3::after {
+    content: "";
+    animation-name: titleanimaion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titleanimaion {
+    0% {
+        content: "P";
+    }
+
+    2% {
+        content: "Ph";
+    }
+
+    4% {
+        content: "Pho";
+    }
+
+    6% {
+        content: "Phot";
+    }
+
+    8% {
+        content: "Photo";
+    }
+
+    10% {
+        content: "Photog";
+    }
+
+    12% {
+        content: "Photogr";
+    }
+
+    14% {
+        content: "Photogra";
+    }
+
+    16% {
+        content: "Photograp";
+    }
+
+    18% {
+        content: "Photograph";
+    }
+
+    22% {
+        content: "Photographe";
+    }
+
+    24% {
+        content: "Photographer";
+    }
+
+    26% {
+        content: "Photographe";
+    }
+
+    28% {
+        content: "Photograph";
+    }
+
+    30% {
+        content: "Photograp";
+    }
+
+    32% {
+        content: "Photogra";
+    }
+
+    34% {
+        content: "Photogr";
+    }
+
+    40% {
+        content: "Photog";
+    }
+
+    42% {
+        content: "Photo";
+    }
+
+    46% {
+        content: "Pho";
+    }
+
+    50% {
+        content: "Ph";
+    }
+
+    52% {
+        content: "P";
+    }
+
+    55% {
+        content: "F";
+    }
+
+    56% {
+        content: "Fr";
+    }
+
+    60% {
+        content: "Fre";
+    }
+
+    62% {
+        content: "Free";
+    }
+
+    65% {
+        content: "Freel";
+    }
+
+    68% {
+        content: "Freela";
+    }
+
+    70% {
+        content: "Freelan";
+    }
+
+    74% {
+        content: "Freelanc";
+    }
+
+    76% {
+        content: "Freelance";
+    }
+
+    80% {
+        content: "Freelancer";
+    }
+
+    82% {
+        content: "Freelance";
+    }
+
+    84% {
+        content: "Freelanc";
+    }
+
+    86% {
+        content: "Freelan";
+    }
+
+    88% {
+        content: "Freela";
+    }
+
+    90% {
+        content: "Freel";
+    }
+
+    92% {
+        content: "Free";
+    }
+
+    94% {
+        content: "Fre";
+    }
+
+    97% {
+        content: "Fr";
+    }
+
+    100% {
+        content: "F";
+    }
+}
